@@ -68,3 +68,21 @@ body{
    color: rgb(0, 0, 0);
    transition: 1s ease-in-out;
 }
+
+.back-button {
+   position: absolute; /* Position it absolutely */
+   top: 20px; /* Adjust vertical position */
+   left: 20px; /* Adjust horizontal position */
+   font-size: 16px; /* Font size */
+   background-color: #f0f0f0; /* Background color */
+   border: none; /* Remove border */
+   padding: 10px 15px; /* Padding for better click area */
+   cursor: pointer; /* Change cursor to pointer */
+   border-radius: 5px; /* Rounded corners */
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add some shadow */
+   transition: background-color 0.3s; /* Smooth background change */
+}
+
+.back-button:hover {
+   background-color: #e0e0e0; /* Change background on hover */
+}
